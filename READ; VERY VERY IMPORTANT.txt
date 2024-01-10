@@ -1,0 +1,3 @@
+some classes = "absolute"
+
+try relative because when you scale the website down it shows some weird thing...

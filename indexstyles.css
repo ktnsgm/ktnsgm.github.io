@@ -1,0 +1,300 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    background-color: #111111;
+}
+
+.intro-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.intro-wrapper .about-frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  margin-top: 110px;
+}
+
+.intro-wrapper #Name {
+  width: fit-content;
+  font-family: "NewYork-Regular", Helvetica;
+  font-weight: 400;
+  color: #fafbffa6;
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  line-height: normal;
+}
+
+.intro-wrapper .about-me {
+  position: relative;
+  font-family: "Quincy CF-Regular", Helvetica;
+  font-weight: 400;
+  color: #fafbff;
+  width: 70%;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 60.8px;
+}
+
+.intro-wrapper .icons #github-icon{
+  display: inline-flex;
+  margin-top: 100px;
+  gap: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.intro-wrapper .icons {
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.intro-wrapper a {
+  color: rgb(147, 167, 142);
+}
+
+.main-wrapper-title {
+  display: block;
+  margin-top: 100px;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.main-wrapper-title a {
+  width: fit-content;
+}
+
+.main-wrapper-title .down-arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+  width: 20px;
+  height: 40px;
+}
+
+.main-wrapper-title #my-projects {
+  display: block;
+  margin-top: 340px;
+  left: 73px;
+  font-family: "NewYork-Regular", Helvetica;
+  font-weight: 400;
+  color: #fafbff;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 60.8px;
+  white-space: nowrap;
+}
+
+.main-wrapper-title .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+}
+
+.main-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-wrapper .frame-7 {
+  display: flex;
+  width: 175px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 9.79px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #181818;
+  border-radius: 49.06px;
+}
+
+.main-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  width: 100%;
+  gap: 120px;
+}
+
+.main-wrapper .projects {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  gap: 15%;
+}
+
+.main-wrapper .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 75px;
+  flex: 0 0 auto;
+}
+
+.main-wrapper .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.main-wrapper .project-text-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.main-wrapper .project-name {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "NewYork-Regular", Helvetica;
+  font-weight: 400;
+  color: #fafbff;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 60.8px;
+  white-space: nowrap;
+}
+
+.main-wrapper .project-text {
+  position: relative;
+  width: 470px;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  color: #fafbffb2;
+}
+
+.main-wrapper .img {
+  position: relative;
+
+}
+
+a {
+  color: rgb(147, 167, 142);   
+}
+
+a:active {
+  color: rgb(167, 167, 244);
+}
+
+a[tabindex]:focus {
+  color: rgb(167, 167, 244);
+  outline: none;
+}
+
+.main-wrapper .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-wrapper .frame-8 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 7.3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.main-wrapper .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  gap: 10.93px;
+  padding: 10.93px;
+  position: relative;
+  background-color: #181818;
+}
+
+.main-wrapper .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -17.43px;
+  margin-bottom: -15.43px;
+  font-family: "SF Pro Display-HeavyItalic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--neutral-100);
+  font-size: 13.1px;
+  letter-spacing: 0;
+  line-height: 66.5px;
+  white-space: nowrap;
+}
+
+.main-wrapper .frame-9 {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  gap: 10.93px;
+  padding: 10.93px;
+  position: relative;
+  background-color: #181818;
+  border-radius: 5px;
+}
+
+.main-wrapper .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -17.43px;
+  margin-bottom: -15.43px;
+  margin-left: -7.43px;
+  margin-right: -7.43px;
+  font-family: "SF Pro Display-HeavyItalic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--neutral-100);
+  font-size: 13.1px;
+  letter-spacing: 0;
+  line-height: 66.5px;
+  white-space: nowrap;
+}
+
+
+.main-wrapper .component-3 {
+  background-image: url(https://c.animaapp.com/nTtAei7d/img/rectangle-37-1.svg);
+  position: relative;
+  width: 501px;
+  height: 517px;
+  background-size: 100% 100%;
+}
+
+.main-wrapper .component-4 {
+  background-image: url(https://c.animaapp.com/nTtAei7d/img/rectangle-37.svg);
+  position: relative;
+  width: 501px;
+  height: 517px;
+  background-size: 100% 100%;
+}
